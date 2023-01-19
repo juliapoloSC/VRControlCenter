@@ -6,7 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
-				"C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/Content/VRTemplate/Maps/VRTemplateMap.umap"
+				"C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/Content/Maps/ControlCenter.umap",
+				"C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/Content/Maps/ControlCenter_BuiltData.uasset"
 			]
 		}
 	]
