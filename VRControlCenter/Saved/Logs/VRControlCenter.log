@@ -9211,3 +9211,21 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.24-18.52.02:051][724]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 738 ms)
 [2023.01.24-18.52.02:056][724]AssetCheck: New page: Asset Save: ControlCenter
 [2023.01.24-18.52.02:056][724]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenter.ControlCenter
+[2023.01.24-18.56.23:441][949]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-18.56.23:514][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.01.24-18.56.23:553][949]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenter
+[2023.01.24-18.56.23:554][949]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenter02F0050F4499A9EA774F559AFEEA35D5.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenter.umap'
+[2023.01.24-18.56.23:559][949]LogFileHelpers: No new changes to save!
+[2023.01.24-18.56.23:559][949]LogFileHelpers: Saving map 'ControlCenter' took 0.054
+[2023.01.24-18.56.23:577][949]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 875 ms)
+[2023.01.24-18.56.23:582][949]AssetCheck: New page: Asset Save: ControlCenter
+[2023.01.24-18.56.23:583][949]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenter.ControlCenter
+[2023.01.24-18.56.35:665][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-18.56.35:734][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.01.24-18.56.35:772][218]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenter
+[2023.01.24-18.56.35:773][218]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenter4CF34E0F4A0461DF065A37864951035C.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenter.umap'
+[2023.01.24-18.56.35:779][218]LogFileHelpers: No new changes to save!
+[2023.01.24-18.56.35:779][218]LogFileHelpers: Saving map 'ControlCenter' took 0.053
+[2023.01.24-18.56.35:797][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 1.00 sec)
+[2023.01.24-18.56.35:801][218]AssetCheck: New page: Asset Save: ControlCenter
+[2023.01.24-18.56.35:801][218]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenter.ControlCenter
