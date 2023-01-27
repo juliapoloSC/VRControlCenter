@@ -1,139 +1,142 @@
-﻿Log file open, 01/27/23 10:45:34
-LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+﻿Log file open, 01/27/23 11:08:59
 LogConfig: Display: Loading Mac ini files took 0.03 seconds
-LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
 LogConfig: Display: Loading Android ini files took 0.03 seconds
-LogConfig: Display: Loading HoloLens ini files took 0.03 seconds
-LogConfig: Display: Loading Unix ini files took 0.03 seconds
-LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
 LogConfig: Display: Loading TVOS ini files took 0.04 seconds
-LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
 LogConfig: Display: Loading Linux ini files took 0.04 seconds
-LogPluginManager: Mounting Engine plugin EnhancedInput
-LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
 LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin EnhancedInput
 LogPluginManager: Mounting Engine plugin MeshPainting
-LogPluginManager: Mounting Engine plugin XGEController
 LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin XGEController
 LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin InterchangeEditor
 LogPluginManager: Mounting Engine plugin AISupport
-LogPluginManager: Mounting Engine plugin AvfMedia
-LogPluginManager: Mounting Engine plugin AndroidMedia
-LogPluginManager: Mounting Engine plugin ImgMedia
-LogPluginManager: Mounting Engine plugin MediaCompositing
-LogPluginManager: Mounting Engine plugin MediaPlate
-LogPluginManager: Mounting Engine plugin MediaPlayerEditor
-LogPluginManager: Mounting Engine plugin WebMMedia
-LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Found config from plugin[Interchange] Game
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin OpenXR
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
 LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemOculus
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
 LogPluginManager: Mounting Engine plugin AutomationUtils
 LogPluginManager: Mounting Engine plugin BackChannel
-LogPluginManager: Mounting Engine plugin ChaosCaching
 LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosCaching
 LogPluginManager: Mounting Engine plugin ChaosClothEditor
 LogPluginManager: Mounting Engine plugin ChaosEditor
 LogPluginManager: Mounting Engine plugin ChaosNiagara
 LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
 LogPluginManager: Mounting Engine plugin ChaosUserDataPT
 LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin VariantManager
 LogPluginManager: Mounting Engine plugin Dataflow
 LogPluginManager: Mounting Engine plugin FullBodyIK
 LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
 LogPluginManager: Mounting Engine plugin Iris
 LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
 LogPluginManager: Mounting Engine plugin OpenImageDenoise
-LogPluginManager: Mounting Engine plugin PlatformCrypto
 LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
 LogPluginManager: Mounting Engine plugin PythonScriptPlugin
 LogPluginManager: Mounting Engine plugin SkeletalReduction
 LogPluginManager: Mounting Engine plugin UVEditor
-LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
-LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
-LogPluginManager: Mounting Engine plugin ControlRigSpline
-LogPluginManager: Mounting Engine plugin ControlRig
-LogPluginManager: Mounting Engine plugin IKRig
-LogPluginManager: Mounting Engine plugin Interchange
-LogPluginManager: Found config from plugin[Interchange] Game
-LogPluginManager: Mounting Engine plugin InterchangeEditor
-LogPluginManager: Mounting Engine plugin Takes
-LogPluginManager: Mounting Engine plugin GLTFExporter
-LogPluginManager: Mounting Engine plugin VariantManager
-LogPluginManager: Mounting Engine plugin VariantManagerContent
-LogPluginManager: Mounting Engine plugin Niagara
-LogPluginManager: Mounting Engine plugin ActorLayerUtilities
-LogPluginManager: Mounting Engine plugin AndroidFileServer
-LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
-LogPluginManager: Mounting Engine plugin AndroidPermission
-LogPluginManager: Mounting Engine plugin AppleImageUtils
-LogPluginManager: Mounting Engine plugin AppleMoviePlayer
-LogPluginManager: Mounting Engine plugin ArchVisCharacter
-LogPluginManager: Mounting Engine plugin AssetTags
-LogPluginManager: Mounting Engine plugin AudioCapture
-LogPluginManager: Mounting Engine plugin AudioSynesthesia
-LogPluginManager: Mounting Engine plugin AudioWidgets
-LogPluginManager: Mounting Engine plugin CableComponent
-LogPluginManager: Mounting Engine plugin ChunkDownloader
-LogPluginManager: Mounting Engine plugin CustomMeshComponent
-LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
-LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
-LogPluginManager: Mounting Engine plugin GeometryCache
-LogPluginManager: Mounting Engine plugin GeometryProcessing
-LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
-LogPluginManager: Mounting Engine plugin GooglePAD
-LogPluginManager: Mounting Engine plugin InputDebugging
-LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
-LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
-LogPluginManager: Mounting Engine plugin MeshModelingToolset
-LogPluginManager: Mounting Engine plugin DatasmithContent
-LogPluginManager: Mounting Engine plugin Metasound
-LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
-LogPluginManager: Mounting Engine plugin ProxyLODPlugin
-LogPluginManager: Mounting Engine plugin PropertyAccessEditor
-LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
-LogPluginManager: Mounting Engine plugin ResonanceAudio
-LogPluginManager: Mounting Engine plugin SignificanceManager
-LogPluginManager: Mounting Engine plugin SoundFields
-LogPluginManager: Mounting Engine plugin MobilePatchingUtils
-LogPluginManager: Mounting Engine plugin Synthesis
-LogPluginManager: Mounting Engine plugin WaveTable
-LogPluginManager: Mounting Engine plugin WebMMoviePlayer
-LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
-LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
 LogPluginManager: Mounting Engine plugin OodleNetwork
-LogPluginManager: Mounting Engine plugin LevelSequenceEditor
-LogPluginManager: Mounting Engine plugin ActorSequence
-LogPluginManager: Mounting Engine plugin OpenXR
-LogPluginManager: Mounting Engine plugin CameraShakePreviewer
-LogPluginManager: Mounting Engine plugin GameplayCameras
-LogPluginManager: Mounting Engine plugin UdpMessaging
-LogPluginManager: Mounting Engine plugin TcpMessaging
-LogPluginManager: Mounting Engine plugin AnimationSharing
-LogPluginManager: Mounting Engine plugin SequencerScripting
-LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
-LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
-LogPluginManager: Mounting Engine plugin GitSourceControl
-LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
-LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
-LogPluginManager: Mounting Engine plugin PerforceSourceControl
-LogPluginManager: Mounting Engine plugin PixWinPlugin
-LogPluginManager: Mounting Engine plugin PlasticSourceControl
-LogPluginManager: Mounting Engine plugin PluginUtils
-LogPluginManager: Mounting Engine plugin DumpGPUServices
-LogPluginManager: Mounting Engine plugin PropertyAccessNode
-LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
-LogPluginManager: Mounting Engine plugin SubversionSourceControl
-LogPluginManager: Mounting Engine plugin TextureFormatOodle
-LogPluginManager: Mounting Engine plugin TraceDataFilters
-LogPluginManager: Mounting Engine plugin UObjectPlugin
-LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
-LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
-LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
-LogPluginManager: Mounting Engine plugin OnlineBase
-LogPluginManager: Mounting Engine plugin OnlineServices
-LogPluginManager: Mounting Engine plugin OnlineSubsystem
-LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
-LogPluginManager: Mounting Engine plugin OnlineSubsystemOculus
-LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin AlembicImporter
 LogPluginManager: Mounting Engine plugin AssetManagerEditor
 LogPluginManager: Mounting Engine plugin BlueprintHeaderView
 LogPluginManager: Mounting Engine plugin CryptoKeys
@@ -142,32 +145,47 @@ LogPluginManager: Mounting Engine plugin DataValidation
 LogPluginManager: Mounting Engine plugin EditorDebugTools
 LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
 LogPluginManager: Mounting Engine plugin FacialAnimation
-LogPluginManager: Mounting Engine plugin GLTFImporter
-LogPluginManager: Mounting Engine plugin GameplayTagsEditor
 LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GLTFImporter
 LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
 LogPluginManager: Mounting Engine plugin MaterialAnalyzer
 LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
 LogPluginManager: Mounting Engine plugin PluginBrowser
 LogPluginManager: Mounting Engine plugin SequencerAnimTools
-LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
-LogPluginManager: Mounting Engine plugin Paper2D
-LogPluginManager: Mounting Engine plugin AlembicImporter
 LogPluginManager: Mounting Engine plugin SpeedTreeImporter
-LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
-LogPluginManager: Mounting Engine plugin TemplateSequence
-LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
 LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
 LogPluginManager: Mounting Engine plugin OculusAudio
 LogPluginManager: Mounting Engine plugin OculusVR
-LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
-LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
-LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/OpenXR/Content/' mounted to '/OpenXR/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
@@ -178,32 +196,14 @@ LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experim
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/OpenXR/Content/' mounted to '/OpenXR/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Oculus/OculusAudio/Content/' mounted to '/OculusAudio/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Oculus/OculusVR/Content/' mounted to '/OculusVR/'
 SourceControl: Source control is disabled
@@ -293,351 +293,351 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VSync:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.RHICmdBypass:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:None]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:None]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.DisableVertexFog:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.Mobile.AllowSoftwareOcclusion:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.VirtualTextures:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DiscardUnusedQuality:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.AllowOcclusionQueries:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.PrecomputedVisibilityWarning:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.TextureStreaming:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[Compat.UseDXT5NormalMaps:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VirtualTextures:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VirtualTexturedLightmaps:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VT.TileSize:128]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VT.TileBorderSize:4]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.vt.FeedbackFactor:16]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.VT.EnableCompressZlib:1]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.VT.EnableCompressCrunch:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:128]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.ForwardShading:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VertexFoggingForOpaque:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.AllowStaticLighting:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.NormalMapsForStaticLighting:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.DistanceFieldBuild.EightBit:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.GenerateLandscapeGIData:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.DistanceFieldBuild.Compress:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SeparateTranslucency:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.CustomDepth:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.EyeAdaptation.EditorOnly:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.LensFlare:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.SSGI.Enable:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:3]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultFeature.LightUnits:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.StencilForLODDither:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.EarlyZPass:3]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.DBuffer:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.ClearSceneMethod:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.BasePassOutputsVelocity:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.VertexDeformationOutputsVelocity:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SelectiveBasePassOutputs:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.GBufferFormat:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.MorphTarget.Mode:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[vr.InstancedStereo:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.MobileHDR:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[vr.MobileMultiView:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[vr.RoundRobinOcclusion:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[vr.ODSCapture:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.MeshStreaming:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.WireframeCullThreshold:5.000000]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.RayTracing:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.RayTracing.UseTextureLod:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SupportStationarySkylight:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SupportLowQualityLightmaps:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.SupportAtmosphericFog:1]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphere:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SkinCache.DefaultBehavior:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.MobileNumDynamicPointLights:4]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: CVar [[r.Mobile.EnableMovableSpotlights:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
-[2023.01.27-15.45.34:751][  0]LogConfig: Set CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.SupportReversedIndexBuffers:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[r.LightPropagationVolume:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.Mobile.AmbientOcclusion:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.Mobile.PlanarReflectionMode:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:3]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
-[2023.01.27-15.45.34:752][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.BlueprintClusteringEnabled:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.VerifyGCObjectNames:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Set CVar [[gc.PendingKillEnabled:1]]
-[2023.01.27-15.45.34:752][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
-[2023.01.27-15.45.34:752][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
-[2023.01.27-15.45.34:753][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.SpatialFilter:2]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.AOQuality:2]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
-[2023.01.27-15.45.34:753][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:70.711]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Tonemapper.GrainQuantization:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.DetailMode:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
-[2023.01.27-15.45.34:754][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2023.01.27-15.45.34:754][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
-[2023.01.27-15.45.34:754][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
-[2023.01.27-15.45.34:766][  0]LogD3D12RHI: Aftermath initialized
-[2023.01.27-15.45.34:766][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.RHICmdBypass:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:None]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:None]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.DisableVertexFog:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.Mobile.AllowSoftwareOcclusion:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.VirtualTextures:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DiscardUnusedQuality:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.AllowOcclusionQueries:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.PrecomputedVisibilityWarning:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.TextureStreaming:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[Compat.UseDXT5NormalMaps:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VirtualTextures:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VirtualTexturedLightmaps:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VT.TileSize:128]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VT.TileBorderSize:4]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.vt.FeedbackFactor:16]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.VT.EnableCompressZlib:1]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.VT.EnableCompressCrunch:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:128]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.ForwardShading:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VertexFoggingForOpaque:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.AllowStaticLighting:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.NormalMapsForStaticLighting:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.DistanceFieldBuild.EightBit:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.GenerateLandscapeGIData:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.DistanceFieldBuild.Compress:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SeparateTranslucency:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.CustomDepth:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.EyeAdaptation.EditorOnly:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.LensFlare:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.SSGI.Enable:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:3]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultFeature.LightUnits:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.StencilForLODDither:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.EarlyZPass:3]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DBuffer:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.ClearSceneMethod:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.BasePassOutputsVelocity:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SelectiveBasePassOutputs:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GBufferFormat:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.MorphTarget.Mode:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[vr.InstancedStereo:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.MobileHDR:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[vr.MobileMultiView:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[vr.RoundRobinOcclusion:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[vr.ODSCapture:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.MeshStreaming:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.WireframeCullThreshold:5.000000]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.RayTracing.UseTextureLod:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportStationarySkylight:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportLowQualityLightmaps:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.SupportAtmosphericFog:1]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphere:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SkinCache.DefaultBehavior:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.MobileNumDynamicPointLights:4]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.Mobile.EnableMovableSpotlights:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.SupportReversedIndexBuffers:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[r.LightPropagationVolume:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.AmbientOcclusion:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:3]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.01.27-16.08.59:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.VerifyGCObjectNames:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Set CVar [[gc.PendingKillEnabled:1]]
+[2023.01.27-16.08.59:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.01.27-16.08.59:845][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.SpatialFilter:2]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2023.01.27-16.08.59:846][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:70.711]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.DetailMode:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.01.27-16.08.59:847][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.01.27-16.08.59:847][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.01.27-16.08.59:847][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2023.01.27-16.08.59:858][  0]LogD3D12RHI: Aftermath initialized
+[2023.01.27-16.08.59:858][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
