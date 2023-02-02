@@ -2321,3 +2321,214 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.02-16.22.19:835][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
 [2023.02.02-16.22.21:162][346]LogSlate: Window 'Message Log' being destroyed
 [2023.02.02-16.22.21:167][346]LogSlate: Window 'Message Log' being destroyed
+[2023.02.02-16.22.46:168][471]LogShaderCompilers: Display: ================================================
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Total job queries 593, among them cache hits 147 (24.79%)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Tracking 446 distinct input hashes that result in 192 distinct outputs (43.05%)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: RAM used: 1.24 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Shaders Compiled: 6
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100.00%)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Average time worker was idle: 36.55 s
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.09 s
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 1.22 s
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Job life time (pending + execution): average 1.00 s, max 1.26
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.19 s
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Average processing rate: 2.74 jobs/sec
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Total thread time: 4.28 s
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Total thread preprocess time: 0.30 s
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Percentage time preprocessing: 6.95%
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Effective parallelization: 1.95 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.92 sec, max 1.00 sec, min 0.83 sec)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.60 sec, max 0.61 sec, min 0.58 sec)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 42.77% of total time (compiled    2 times, average 0.92 sec, max 1.00 sec, min 0.83 sec)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 29.28% of total time (compiled    2 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.95% of total time (compiled    2 times, average 0.60 sec, max 0.61 sec, min 0.58 sec)
+[2023.02.02-16.22.46:173][471]LogShaderCompilers: Display: ================================================
+[2023.02.02-16.22.53:105][878]LightingResults: Warning: PVC_Windows_2_Box051 Object has overlapping UVs.
+[2023.02.02-16.22.53:105][878]LightingResults: PVC_Windows_2_Box051 Lightmap UV are overlapping by 51.4%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.53:105][878]LightingResults: Warning: PVC_Windows_2_Box050 Object has overlapping UVs.
+[2023.02.02-16.22.53:105][878]LightingResults: PVC_Windows_2_Box050 Lightmap UV are overlapping by 51.5%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.53:427][897]LightingResults: Warning: PVC_Windows_2_Box051 Object has overlapping UVs.
+[2023.02.02-16.22.53:427][897]LightingResults: PVC_Windows_2_Box051 Lightmap UV are overlapping by 51.4%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.53:427][897]LightingResults: Warning: PVC_Windows_2_Object047 Object has overlapping UVs.
+[2023.02.02-16.22.53:427][897]LightingResults: PVC_Windows_2_Object047 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.53:513][902]LightingResults: Warning: PVC_Windows_2_Box053 Object has overlapping UVs.
+[2023.02.02-16.22.53:513][902]LightingResults: PVC_Windows_2_Box053 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.54:403][954]LightingResults: Warning: PVC_Windows_2_Object048 Object has overlapping UVs.
+[2023.02.02-16.22.54:403][954]LightingResults: PVC_Windows_2_Object048 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.54:670][970]LightingResults: Warning: PVC_Windows_2_Object047 Object has overlapping UVs.
+[2023.02.02-16.22.54:670][970]LightingResults: PVC_Windows_2_Object047 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.54:703][972]LightingResults: Warning: Control_Center_Furniture_Cube_004 Object has overlapping UVs.
+[2023.02.02-16.22.54:703][972]LightingResults: Control_Center_Furniture_Cube_004 Lightmap UV are overlapping by 33.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.54:760][975]LightingResults: Warning: PVC_Windows_2_Object046 Object has overlapping UVs.
+[2023.02.02-16.22.54:760][975]LightingResults: PVC_Windows_2_Object046 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.54:823][979]LightingResults: Warning: PVC_Windows_2_Object045 Object has overlapping UVs.
+[2023.02.02-16.22.54:823][979]LightingResults: PVC_Windows_2_Object045 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.55:102][995]LightingResults: Warning: PVC_Windows_2_Object044 Object has overlapping UVs.
+[2023.02.02-16.22.55:102][995]LightingResults: PVC_Windows_2_Object044 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.55:446][ 15]LightingResults: Warning: power_box_01_4k_power_box_01_box Object has overlapping UVs.
+[2023.02.02-16.22.55:446][ 15]LightingResults: power_box_01_4k_power_box_01_box Lightmap UV are overlapping by 26.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.55:694][ 30]LightingResults: Warning: PVC_Windows_2_Object042 Object has overlapping UVs.
+[2023.02.02-16.22.55:694][ 30]LightingResults: Warning: PVC_Windows_2_Object043 Object has overlapping UVs.
+[2023.02.02-16.22.55:694][ 30]LightingResults: PVC_Windows_2_Object043 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.55:694][ 30]LightingResults: PVC_Windows_2_Object042 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.55:864][ 40]LightingResults: Warning: PVC_Windows_2_Object041 Object has overlapping UVs.
+[2023.02.02-16.22.55:864][ 40]LightingResults: PVC_Windows_2_Object041 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:046][ 51]LightingResults: Warning: PVC_Windows_2_Object032 Object has overlapping UVs.
+[2023.02.02-16.22.56:068][ 52]LightingResults: PVC_Windows_2_Object032 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:217][ 61]LightingResults: Warning: PVC_Windows_2_Object026 Object has overlapping UVs.
+[2023.02.02-16.22.56:217][ 61]LightingResults: PVC_Windows_2_Object026 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:325][ 67]LightingResults: Warning: PVC_Windows_2_Object025 Object has overlapping UVs.
+[2023.02.02-16.22.56:325][ 67]LightingResults: PVC_Windows_2_Object025 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:455][ 75]LightingResults: Warning: PVC_Windows_2_Object031 Object has overlapping UVs.
+[2023.02.02-16.22.56:455][ 75]LightingResults: PVC_Windows_2_Object031 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:487][ 77]LightingResults: Warning: PVC_Windows_2_Object030 Object has overlapping UVs.
+[2023.02.02-16.22.56:487][ 77]LightingResults: PVC_Windows_2_Object030 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:639][ 86]LightingResults: Warning: PVC_Windows_2_Object029 Object has overlapping UVs.
+[2023.02.02-16.22.56:639][ 86]LightingResults: PVC_Windows_2_Object029 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.56:841][ 98]LightingResults: Warning: PVC_Windows_2_Object028 Object has overlapping UVs.
+[2023.02.02-16.22.56:841][ 98]LightingResults: PVC_Windows_2_Object028 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.57:430][133]LightingResults: Warning: PVC_Windows_2_Object027 Object has overlapping UVs.
+[2023.02.02-16.22.57:430][133]LightingResults: PVC_Windows_2_Object027 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.57:464][135]LightingResults: Warning: monitorsetup4_Screen_070 Object has overlapping UVs.
+[2023.02.02-16.22.57:464][135]LightingResults: monitorsetup4_Screen_070 Lightmap UV are overlapping by 77.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.57:485][136]LightingResults: Warning: PVC_Windows_2_Object026 Object has overlapping UVs.
+[2023.02.02-16.22.57:485][136]LightingResults: PVC_Windows_2_Object026 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.57:742][151]LightingResults: Warning: PVC_Windows_2_Object025 Object has overlapping UVs.
+[2023.02.02-16.22.57:742][151]LightingResults: PVC_Windows_2_Object025 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.58:021][167]LightingResults: Warning: PVC_Windows_2_Box050 Object has overlapping UVs.
+[2023.02.02-16.22.58:021][167]LightingResults: PVC_Windows_2_Box050 Lightmap UV are overlapping by 51.5%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.59:443][250]LightingResults: Warning: PVC_Windows_2_Object027 Object has overlapping UVs.
+[2023.02.02-16.22.59:443][250]LightingResults: PVC_Windows_2_Object027 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.59:488][252]LightingResults: Warning: PVC_Windows_2_Object028 Object has overlapping UVs.
+[2023.02.02-16.22.59:488][252]LightingResults: PVC_Windows_2_Object028 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.59:605][259]LightingResults: Warning: PVC_Windows_2_Object029 Object has overlapping UVs.
+[2023.02.02-16.22.59:605][259]LightingResults: PVC_Windows_2_Object029 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.22.59:980][281]LightingResults: Warning: PVC_Windows_2_Object030 Object has overlapping UVs.
+[2023.02.02-16.22.59:980][281]LightingResults: PVC_Windows_2_Object030 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.01:208][353]LightingResults: Warning: Control_Center_Furniture_Cube_004 Object has overlapping UVs.
+[2023.02.02-16.23.01:208][353]LightingResults: Control_Center_Furniture_Cube_004 Lightmap UV are overlapping by 33.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.01:669][380]LightingResults: Warning: PVC_Windows_2_Object048 Object has overlapping UVs.
+[2023.02.02-16.23.01:669][380]LightingResults: PVC_Windows_2_Object048 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.01:942][396]LightingResults: Warning: PVC_Windows_2_Object046 Object has overlapping UVs.
+[2023.02.02-16.23.01:942][396]LightingResults: PVC_Windows_2_Object046 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.02:022][401]LightingResults: Warning: PVC_Windows_2_Object045 Object has overlapping UVs.
+[2023.02.02-16.23.02:022][401]LightingResults: PVC_Windows_2_Object045 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.02:344][420]LightingResults: Warning: PVC_Windows_2_Object044 Object has overlapping UVs.
+[2023.02.02-16.23.02:344][420]LightingResults: PVC_Windows_2_Object044 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.02:985][457]LightingResults: Warning: PVC_Windows_2_Object043 Object has overlapping UVs.
+[2023.02.02-16.23.02:985][457]LightingResults: PVC_Windows_2_Object043 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.03:006][458]LightingResults: Warning: Control_Center_Furniture_Cube_004 Object has overlapping UVs.
+[2023.02.02-16.23.03:006][458]LightingResults: Control_Center_Furniture_Cube_004 Lightmap UV are overlapping by 33.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.03:125][465]LightingResults: Warning: PVC_Windows_2_Object042 Object has overlapping UVs.
+[2023.02.02-16.23.03:125][465]LightingResults: PVC_Windows_2_Object042 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.03:362][479]LightingResults: Warning: PVC_Windows_2_Object041 Object has overlapping UVs.
+[2023.02.02-16.23.03:362][479]LightingResults: PVC_Windows_2_Object041 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.03:481][486]LightingResults: Warning: PVC_Windows_2_Box053 Object has overlapping UVs.
+[2023.02.02-16.23.03:481][486]LightingResults: PVC_Windows_2_Box053 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.03:693][498]LightingResults: Warning: PVC_Windows_2_Object032 Object has overlapping UVs.
+[2023.02.02-16.23.03:693][498]LightingResults: PVC_Windows_2_Object032 Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.04:014][517]LightingResults: Warning: PVC_Windows_2_Object031 Object has overlapping UVs.
+[2023.02.02-16.23.04:014][517]LightingResults: PVC_Windows_2_Object031 Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.02.02-16.23.37:429][514]Job is a success!
+[2023.02.02-16.23.37:657][515]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.110s
+[2023.02.02-16.23.37:657][515]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2023.02.02-16.23.37:657][515]LogVolumetricLightmapImport:      BrickData (all levels) 4.0Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2023.02.02-16.23.37:657][515]LogVolumetricLightmapImport:      Bricks at depth
+[2023.02.02-16.23.37:658][515]LogVolumetricLightmapImport:          0: 1.0% covering 100.0% of volume
+[2023.02.02-16.23.37:658][515]LogVolumetricLightmapImport:          1: 8.5% covering 12.9% of volume
+[2023.02.02-16.23.37:658][515]LogVolumetricLightmapImport:          2: 90.5% covering 2.1% of volume
+[2023.02.02-16.23.37:658][515]LogVolumetricLightmapImport:      Bricks in each level
+[2023.02.02-16.23.37:658][515]LogVolumetricLightmapImport:          ControlCenterGame 			 776 bricks 	 100.0% (Persistent Level)
+[2023.02.02-16.23.37:810][515]LightingResults: Warning: PointLight_6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2023.02.02-16.23.37:873][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:SkyOcclusion0_1 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 85.270815 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:884][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:902][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:915][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:SkyOcclusion0_2 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 85.270815 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:924][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:943][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:958][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:SkyOcclusion0_3 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 85.270815 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:967][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.37:983][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.38:162][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:ShadowMapTexture2D_0 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 16.062489 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.38:167][515]LogTexture: Display: Building textures: /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData:ShadowMapTexture2D_1 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 32.062492 MB), EncodeSpeed: Fast
+[2023.02.02-16.23.38:202][515]Lightmass on DESKTOP-S0S2F0T: 1:17 min total, 3.99 sec importing, 2.32 sec setup, 25.7 sec photons, 45.1 sec processing, 0 us extra exporting [338/338 mappings]. Threads: 11:17 min total, 3:25 min processing.
+[2023.02.02-16.23.38:216][515]LogStaticLightingSystem: ControlCenterGame_BuiltData storing lightmap data for 338 meshes in 7 LightmapResourceClusters (48.3 Meshes per cluster).
+[2023.02.02-16.23.38:242][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.02.02-16.23.38:254][515]LogStaticLightingSystem: Illumination: 1:25 min (204 ms encoding lightmaps, 161 ms encoding shadowmaps)
+[2023.02.02-16.23.38:254][515]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2023.02.02-16.23.38:254][515]LogStaticLightingSystem: Shadowmap texture memory: 8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.02.02-16.23.43:205][515]DumpUnbuiltLightIteractions
+[2023.02.02-16.23.43:205][515]Lights with unbuilt interactions: 0
+[2023.02.02-16.23.43:205][515]
+[2023.02.02-16.23.43:205][515]Primitives with unbuilt interactions: 0
+[2023.02.02-16.23.46:807][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash e4035d7ccabb764b647e6f118f7e7bb71f1f45bb and existing hash b2216264f5e37652cf51c600e438d43abd6c672c for MaterialShaderMap/0082d909c7e4cfab0e73339542156328976e8c77 from '/Game/fan/ceiling_fan_Metal_Metallic_Mat.ceiling_fan_Metal_Metallic_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:811][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 3487038bd0786c9ca861a984f704bed8423494ba and existing hash 540ef3fd4c6f48022761d10e556a6baceffa3c93 for MaterialShaderMap/f1b7178f62dc87640b92b9602e4b528f1ebed2b6 from '/Game/monitor/Base_Texture_Mat.Base_Texture_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:812][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 1f569e978149cb6ed7fcbc0c640011aa6f47882a and existing hash 1ec533f80c663d0e8768b3276e0f8283c3ed2c82 for MaterialShaderMap/8cade7ae8365f901975d473af532f2c1ba3a7bc1 from '/Game/fan/ceiling_fan_Metal_Roughness_Mat.ceiling_fan_Metal_Roughness_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:812][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 3c6e51238a4d2d540d5bbb1c5c584d63fa1c5a0b and existing hash 1b579f98d2510d7481e49aa6bbf95c49ed9d9bc9 for MaterialShaderMap/1ea2af8f502417c8f88d64bdf1640fddbd237216 from '/Game/monitor/NewMaterial.NewMaterial [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:813][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 9a88aa962a2f223e82bafe7e11c0cce8b7ef837f and existing hash eaaca5178f358b4c7d42c85715ac2f6ded4e54cc for MaterialShaderMap/ed8ebfaab06190730530b123d686fbf3ad4e60ea from '/Game/Props/Textures/Southern_Company-Logo_wine_Mat.Southern_Company-Logo_wine_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:816][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash ecafd2ef3bf1a76933922d5b39a737c2f961a631 and existing hash 394a0306ffa5793d1622408b69289944df3e468f for MaterialShaderMap/137664d313ecde71e888e32f06b85825121b1761 from '/Game/powerbox/powerbox.powerbox [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:818][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 76e6f47ae0efd7d127e73b44062528761abcaa10 and existing hash fac13aa7446b15d5fa0590ad2080772323f76631 for MaterialShaderMap/12eba2da3420b58c67e643ef10c00959d65333c2 from '/Game/exit/exit.exit [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:820][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash fb7d538fbee561429289c295a8ad05a441d90f50 and existing hash f057da30a8a0cc467033074eca439afac814f7a6 for MaterialShaderMap/f52a7111256fd72278aa8bf0e2c2bd3c79e69715 from '/Game/bookshelf/Material.Material [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:820][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 01a2c58db9f0aeab37bc4b6520496f5f1a79e963 and existing hash e628991caad28d83fa289b70bdabe85b61366ae8 for MaterialShaderMap/9f081f5f125c60ceb221205c9b45e24a21579479 from '/Game/intercom/IntercomSpeackerAO_Mat.IntercomSpeackerAO_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:822][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 3e9713a02c7544f8810599cd07d111b0beb8f710 and existing hash e302383d5e2c366dba256906e27d6f50d3f6ac2e for MaterialShaderMap/0c4befd7b50583e4c41337dccc80459739cd9d6e from '/Engine/VREditor/TransformGizmo/Xray.Xray [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:824][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 466cb7c93ee2a3d4a44d81993d668e5d6c20e98d and existing hash b3689d9c62c97cb372b26a2050f8a9bd3e7dfb53 for MaterialShaderMap/4440890be7e55b11177846365f36fca49bccb612 from '/Game/Materials/Telephone.Telephone [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:825][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 30ca08ac46c9734d2ec26ab8ab8c63890eb83b7b and existing hash 62511e8ed8d9c4d6dc9f0af7e1772ed65ded66ea for MaterialShaderMap/325f1f4bc06b17969e7808b123612ea596a6094d from '/Game/Materials/Keyboard.Keyboard [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:827][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash eddd619724af584233504ab00c77cc5591bb0536 and existing hash cb0231b6935debfb07c3dc1ab5c8031553f8f56b for MaterialShaderMap/e3d0012f6bcfdea7414f2da97b6bb069b03d89d9 from '/Game/trashcan/Material.Material [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:829][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 7bd3a811f2ef75a3cdd896e5835b4042756fafc5 and existing hash d5048f485ac29c8c34d18e18638ccfb2871089bb for MaterialShaderMap/31b2e60387107b64031140dcb56f397d05b0d7ed from '/Game/books/onebook/Paper.Paper [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:830][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash c55151da02eb0a66f950464847f6f0630f19f10e and existing hash a90cb8f18ed373f1cc3899b839ef4851be2fa7e4 for MaterialShaderMap/c0dd8089e04d73193f4435733f2713b6a8e5716e from '/Game/books/onebook/Roughness_Mat.Roughness_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:833][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 654d5559fd95e5341a79a30652eb19b4b9f430c8 and existing hash aaf05376ed7e51af6e4ab5fd7559aeecacd419a9 for MaterialShaderMap/0d25962c59001bf4f33f8e68f83add3bcd049c29 from '/Game/books/Book_Vol2.Book_Vol2 [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:880][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 7811830b3dd7aceaca5c5336e5f9393df1a00d09 and existing hash e73a7e526c141841ca747a762f9f273d55c78bb3 for MaterialShaderMap/3fb5825b725287a53280b511834a8f8c58436303 from '/Game/books/Book_2_LP_Book_Vol_II_Metallic_Mat.Book_2_LP_Book_Vol_II_Metallic_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:880][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 2d9f9f0038a1f0b738351a5dd602cd297c8ac542 and existing hash 1cc7f3351dd07e724d462230f3ea924878e522b3 for MaterialShaderMap/ba7515d57a645084ddb9437e2d391c4896f659c7 from '/Game/window/Aluminium.Aluminium [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:880][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash e29e8d948e35b9cc278d5d57f6ec79fdb30dddd4 and existing hash 08cacdb8f2d192fc99f3084c2692dc48fa2e1efc for MaterialShaderMap/3cbd501ddcb9750fc7a26c8133ebcbea3e42dbb6 from '/Game/window/Silicon.Silicon [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:885][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 5da5f04fd1a8572faa36b0d64d0c0197ac73395c and existing hash 178184218c44f1e8c79c46297428d1917a39b252 for MaterialShaderMap/2994ef69f2efab0f2c18e94bd1b53634eaa845c4 from '/Game/window/encaixe.encaixe [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:885][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 02b7ddb832fb52e41d79fdeafe14c11801ac4587 and existing hash 56515e24cbff746b427170074c8f7f6def27ae00 for MaterialShaderMap/3b78803080f0cc98f65dee4680f71072f5bf85d2 from '/Game/window/Branco_jaNELA.Branco_jaNELA [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:885][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash b552119f13f3e46c3a832ce2128ca8e761940c95 and existing hash bc14d478fbe83a2cbd127c8adfd3cffb6af9a441 for MaterialShaderMap/6601a73b8591e4c6c60f4b9e05585b87485669ba from '/Game/window/Stanstead_Grey.Stanstead_Grey [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:886][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 88d09fa62141dc7c7316796f290cc8561394549a and existing hash 7a4bf62a7b936293e3e7bf6380ac744ccd560056 for MaterialShaderMap/2956298fb4ba2b50aa2eb89c6a8913658d0dfc9a from '/Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:890][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash ae67be21f21c43e13f64386e60f6ea959906016e and existing hash 439a25b23491d79d4f7a1ae912ce31ca680df2d2 for MaterialShaderMap/ac3ce0dd04abc03471d0833d5d1df33edaba325e from '/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:890][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash ab4765b38c3cf4ecec1248328607f80ee7bd512c and existing hash 1431e0b8f00de37b143099195cea91554f868f93 for MaterialShaderMap/aade8837cec48e28f2337dd1be642f3b7b85d3ca from '/Game/clock/Material_002.Material_002 [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:891][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 6a54bca24d821ff9b0d852ea0d6d80c399110638 and existing hash b7679919fa104fd0fa09ac0fa469dc8e08c9a74f for MaterialShaderMap/670dc7cb47789c2d85ef15ea6b4bc272a090ed99 from '/Game/books/Book_1_LP_Book_of_Truths_Roughness_Mat.Book_1_LP_Book_of_Truths_Roughness_Mat [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:891][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash d2753261d6fe226a35185704d4ef11252da1b235 and existing hash 82a5a39dd59db7ace701482ab7541ca72d663972 for MaterialShaderMap/a49a06e20e2948091d1acb71bc84263d7eca5a96 from '/Game/clock/Material_001.Material_001 [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:896][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash f3f833a2d017a1b17eb81d38e7f8f46189973ee8 and existing hash 3c62a3ff61369207da2993579a1f4dc565c7852c for MaterialShaderMap/55cf21c6c40a4ccfd2fecf53c5b2561f5ea9a9a4 from '/Game/clock/ZenUV_Generic_Material_001.ZenUV_Generic_Material_001 [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:897][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash adc1c3c00235bdf03c4664bf631c5b1ca0943d15 and existing hash 31eb378730238aa8a0bc28fd18d2d7137363551f for MaterialShaderMap/8804006316666c0c47b0e86ffd4d1493e8c629ce from '/Game/Materials/Keys.Keys [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:898][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 48a9e291dc7d4558faaa3c94a4841cd186017694 and existing hash 7236bb3bfaa4e6ee0a5657438a7ea887c60a849c for MaterialShaderMap/01581562a6e39846deecbe8085b412b44052cb9a from '/Game/clock/ZenUV_Generic_Material_002.ZenUV_Generic_Material_002 [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:899][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 3b6300cef0da9505491532608126a920776967a1 and existing hash 949edeabcdd7811bfabd2232c170f3486fe429b3 for MaterialShaderMap/b84f5e68c2f220aca5c7a087bb61b3cc11453ddc from '/Game/ledger/blinn2.blinn2 [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:903][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash f172eff52177e3e02c5f705b8a25ce4c6e4044c1 and existing hash 5072cb8313e85da0dd9d12814c5d1c40c43e94b8 for MaterialShaderMap/737f2e7257885aef28563be12cf7615632992962 from '/Game/StarterContent/Materials/M_Metal_Brushed_Nickel.M_Metal_Brushed_Nickel [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:904][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 8501ed969290748536a0fd837751d4c0f1af4bef and existing hash f816625d6ee6da4bc83a2aa25692cb664e2d7e78 for MaterialShaderMap/0f55654da62af08a39f2dd526e91607eadc06caa from '/Game/Materials/Chair.Chair [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.46:906][515]LogDerivedDataCache: Display: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 93a10e4a42b9674ff6d9b2bb26561b12ad1daccc and existing hash 5963ae02cf2d0bfd04b29a556e7c4c06945f9e58 for MaterialShaderMap/5520327397451ad700ebb0a12245e01bf5ed2f4b from '/Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak [PCD3D_SM5, SM5, Num]'
+[2023.02.02-16.23.47:085][516]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.02.02-16.23.47:085][516]MapCheck: New page: ControlCenterGame - Feb 2, 2023, 6:23:47 AM
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_753 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_770 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_771 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_772 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_773 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_774 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_775 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_785 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_786 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_787 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:086][516]MapCheck: Warning: StaticMeshActor_788 Static mesh actor has NULL StaticMesh property 
+[2023.02.02-16.23.47:088][516]MapCheck: Warning: StaticMeshActor_44 StaticMeshActor_44 is in the same location as StaticMeshActor_53 
+[2023.02.02-16.23.47:088][516]MapCheck: Warning: StaticMeshActor_53 StaticMeshActor_53 is in the same location as StaticMeshActor_44 
+[2023.02.02-16.23.47:089][516]MapCheck: Map check complete: 0 Error(s), 13 Warning(s), took 3.543ms to complete.
+[2023.02.02-16.23.53:582][889]LogSlate: Window 'Message Log' being destroyed
+[2023.02.02-16.23.53:585][889]LogSlate: Window 'Message Log' being destroyed
+[2023.02.02-16.23.56:209][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-16.23.56:247][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.02.02-16.23.56:321][ 40]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenterGame
+[2023.02.02-16.23.56:321][ 40]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenterGameB33BB6894AE8858C496CB68A00B2B32D.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenterGame.umap'
+[2023.02.02-16.23.56:414][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-16.23.56:495][ 40]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenterGame_BuiltData
+[2023.02.02-16.23.56:495][ 40]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenterGame_BuiltData0587779444480FE05E975DA9624F24BE.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenterGame_BuiltData.uasset'
+[2023.02.02-16.23.57:134][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 719 ms (total: 1.59 sec)
+[2023.02.02-16.23.57:193][ 40]LogFileHelpers: Saving map 'ControlCenterGame' took 0.955
+[2023.02.02-16.23.57:196][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 986 ms (total: 2.58 sec)
+[2023.02.02-16.23.57:203][ 40]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.02-16.23.57:203][ 40]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenterGame.ControlCenterGame
+[2023.02.02-16.23.57:203][ 40]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/Maps/ControlCenterGame_BuiltData.ControlCenterGame_BuiltData
