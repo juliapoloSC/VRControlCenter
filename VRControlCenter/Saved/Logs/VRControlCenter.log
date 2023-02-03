@@ -3133,3 +3133,666 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.02-22.20.38:009][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 1.80 sec)
 [2023.02.02-22.20.38:019][821]AssetCheck: New page: Asset Save: ControlCenterGame
 [2023.02.02-22.20.38:019][821]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenterGame.ControlCenterGame
+[2023.02.02-22.21.17:522][102]LogShaderCompilers: Display: ================================================
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Total job queries 458, among them cache hits 119 (25.98%)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Tracking 339 distinct input hashes that result in 168 distinct outputs (49.56%)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: RAM used: 0.93 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Shaders Compiled: 5
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100.00%)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Job execution time: average 0.96 s, max 1.25 s
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Job life time (pending + execution): average 1.00 s, max 1.25
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.25 s
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Average processing rate: 4.00 jobs/sec
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Total thread time: 2.44 s
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Total thread preprocess time: 0.14 s
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Percentage time preprocessing: 5.66%
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Effective parallelization: 1.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 35.82% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.61% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.42% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.16% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2023.02.02-22.21.17:523][102]LogShaderCompilers: Display: ================================================
+[2023.02.02-22.21.20:594][318]LogContentBrowser: Deferred new asset file creation: Screen2
+[2023.02.02-22.21.20:625][318]LogContentBrowser: Creating deferred item: Screen2
+[2023.02.02-22.21.20:642][319]LogContentBrowser: Renaming the item being created (Deferred Item: Screen2).
+[2023.02.02-22.21.21:916][449]LogContentBrowser: Attempting asset rename: Screen2 -> Screen2
+[2023.02.02-22.21.22:041][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.02.02-22.21.22:117][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.21.22:143][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.21.22:149][449]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.21.22:149][449]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen270A07F9948D16A9B7A09C68B2364716C.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.21.22:266][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 1.95 sec)
+[2023.02.02-22.21.22:402][449]LogContentBrowser: End creating deferred item Screen2
+[2023.02.02-22.21.22:410][449]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.21.22:410][449]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.21.23:382][529]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.21.23:383][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.02-22.21.23:396][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.02-22.21.23:899][529]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.02-22.21.23:899][529]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.02-22.21.48:776][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.21.48:806][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.21.48:811][149]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.21.48:811][149]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2627ACBD64B6CA07A01C82689F3E7F6F1.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.21.48:819][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.99 sec)
+[2023.02.02-22.21.48:827][149]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.21.48:827][149]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.22.37:510][ 37]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.02-22.22.51:819][ 34]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.02.02-22.22.55:783][260]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.02.02-22.22.58:920][462]LogEditorTransaction: Undo Resize Widget
+[2023.02.02-22.23.10:870][202]LogSlate: Took 0.003061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.02-22.23.11:886][269]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineFonts: 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineFonts' is outside repository at 'C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter'
+[2023.02.02-22.25.26:091][255]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.02-22.25.44:200][389]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.02-22.26.04:329][851]SourceControl: Error: fatal: Invalid path 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/UMG': No such file or directory
+[2023.02.02-22.26.07:437][ 55]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.02-22.26.34:810][789]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.02-22.28.07:198][ 58]LogSlate: Window 'Screen2' being destroyed
+[2023.02.02-22.30.08:654][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.30.08:685][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.30.08:692][450]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.30.08:693][450]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen26AA7C4C3487CD528D361DC970D595BFC.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.30.08:698][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 2.04 sec)
+[2023.02.02-22.30.08:713][450]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.30.08:713][450]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.30.13:512][  9]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.30.13:535][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.30.13:539][  9]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.30.13:540][  9]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2168698B946BC1305D8D0B7A877F6A1CA.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.30.13:546][  9]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 2.07 sec)
+[2023.02.02-22.30.13:555][  9]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.30.13:555][  9]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.30.18:689][576]BlueprintLog: New page: Compile Screen2
+[2023.02.02-22.30.18:776][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.02.02-22.30.31:916][ 30]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.02-22.30.31:916][ 30]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.02-22.30.31:916][ 30]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.02-22.30.35:493][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.30.35:525][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/ScreenUI" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI.uasset" SILENT=true
+[2023.02.02-22.30.35:528][423]LogSavePackage: Moving output files for package: /Game/Widgets/ScreenUI
+[2023.02.02-22.30.35:529][423]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ScreenUID87EF93D4B81715B1389B9BCE84A475C.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI.uasset'
+[2023.02.02-22.30.35:534][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 2.11 sec)
+[2023.02.02-22.30.35:543][423]AssetCheck: New page: Asset Save: ScreenUI
+[2023.02.02-22.30.35:543][423]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Widgets/ScreenUI.ScreenUI
+[2023.02.02-22.30.41:472][115]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.02-22.30.41:472][115]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.02-22.30.47:341][671]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.02-22.31.21:638][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.31.21:669][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.31.21:674][526]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.31.21:674][526]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen266267CEF408814EB9D825FB30822664A.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.31.21:680][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.15 sec)
+[2023.02.02-22.31.21:688][526]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.31.21:688][526]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.31.36:746][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.31.36:778][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.31.36:783][144]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.31.36:783][144]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen299E8137B4FE14A502CB7EC9AA57CD555.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.31.36:791][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 2.20 sec)
+[2023.02.02-22.31.36:799][144]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.31.36:799][144]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.31.49:081][476]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.49:081][476]LogEditorTransaction: Undo Clicking on Elements
+[2023.02.02-22.31.49:655][503]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.49:655][503]LogEditorTransaction: Undo Clicking on Elements
+[2023.02.02-22.31.50:086][546]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.50:086][546]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.50:483][585]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.50:483][585]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.50:888][625]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.50:889][625]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.51:282][660]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.51:282][660]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.51:599][689]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.51:599][689]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.52:176][746]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.52:176][746]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.52:544][781]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.52:544][781]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.52:856][809]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.52:856][809]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.53:108][819]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.53:108][819]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.53:331][826]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.53:331][826]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.53:605][848]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.53:605][848]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.56:399][108]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.56:399][108]LogEditorTransaction: Undo Clicking on Elements
+[2023.02.02-22.31.56:633][115]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.56:634][115]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.56:809][120]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.56:809][120]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.57:007][134]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.57:007][134]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.57:234][155]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.57:234][155]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.31.57:432][173]Cmd: TRANSACTION UNDO
+[2023.02.02-22.31.57:432][173]LogEditorTransaction: Undo Nudge Widget
+[2023.02.02-22.32.09:037][402]Cmd: DELETE
+[2023.02.02-22.32.09:037][402]Cmd: ACTOR DELETE
+[2023.02.02-22.32.09:044][402]LogEditorActor: Deleted Actor: ScreenUI_C
+[2023.02.02-22.32.09:102][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.02.02-22.32.09:105][402]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2023.02.02-22.32.13:429][876]LogContentBrowser: Deferred new asset file creation: ScreenUI1
+[2023.02.02-22.32.13:438][876]LogContentBrowser: Creating deferred item: ScreenUI1
+[2023.02.02-22.32.13:455][877]LogContentBrowser: Renaming the item being created (Deferred Item: ScreenUI1).
+[2023.02.02-22.32.16:942][291]LogContentBrowser: Attempting asset rename: ScreenUI1 -> ScreenUI2
+[2023.02.02-22.32.17:058][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.02.02-22.32.17:135][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.32.17:160][291]LogSavePackage: Moving output files for package: /Game/Widgets/ScreenUI2
+[2023.02.02-22.32.17:160][291]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ScreenUI2D49B97364A06F5F1C851808AF16B09AF.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI2.uasset'
+[2023.02.02-22.32.17:271][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 2.33 sec)
+[2023.02.02-22.32.17:397][291]LogContentBrowser: End creating deferred item ScreenUI1
+[2023.02.02-22.32.17:404][291]AssetCheck: New page: Asset Save: ScreenUI2
+[2023.02.02-22.32.17:404][291]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Widgets/ScreenUI2.ScreenUI2
+[2023.02.02-22.32.18:272][378]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Widgets/ScreenUI2.ScreenUI2
+[2023.02.02-22.32.18:273][378]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.02-22.32.20:339][561]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.02.02-22.32.27:487][393]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.02-22.32.27:488][393]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.02-22.32.27:488][393]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.02-22.32.31:972][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.32.32:001][900]LogSavePackage: Moving output files for package: /Game/Widgets/ScreenUI2
+[2023.02.02-22.32.32:002][900]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ScreenUI2CE617251445D73BD58F258B843552DD0.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI2.uasset'
+[2023.02.02-22.32.32:006][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 2.37 sec)
+[2023.02.02-22.32.32:016][900]AssetCheck: New page: Asset Save: ScreenUI2
+[2023.02.02-22.32.32:016][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Widgets/ScreenUI2.ScreenUI2
+[2023.02.02-22.32.34:787][227]BlueprintLog: New page: Compile Screen2
+[2023.02.02-22.32.34:883][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.02.02-22.32.35:285][264]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.02.02-22.32.43:558][215]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Widgets/ScreenUI2.ScreenUI2_C
+[2023.02.02-22.32.43:558][215]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Widgets/ScreenUI2.ScreenUI2_C
+[2023.02.02-22.32.43:560][215]LogActorFactory: Actor Factory spawned Blueprint /Game/Widgets/ScreenUI2.ScreenUI2 as actor: ScreenUI2_C /Game/Maps/ControlCenterGame.ControlCenterGame:PersistentLevel.ScreenUI2_C_0
+[2023.02.02-22.32.43:561][215]LogActorFactory: Actor Factory spawned Blueprint /Game/Widgets/ScreenUI2.ScreenUI2 as actor: ScreenUI2_C /Game/Maps/ControlCenterGame.ControlCenterGame:PersistentLevel.ScreenUI2_C_0
+[2023.02.02-22.32.44:174][272]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Widgets/ScreenUI2.ScreenUI2_C
+[2023.02.02-22.32.44:174][272]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Widgets/ScreenUI2.ScreenUI2_C
+[2023.02.02-22.32.44:177][272]LogActorFactory: Actor Factory spawned Blueprint /Game/Widgets/ScreenUI2.ScreenUI2 as actor: ScreenUI2_C /Game/Maps/ControlCenterGame.ControlCenterGame:PersistentLevel.ScreenUI2_C_1
+[2023.02.02-22.32.44:179][272]LogActorFactory: Actor Factory spawned Blueprint /Game/Widgets/ScreenUI2.ScreenUI2 as actor: ScreenUI2_C /Game/Maps/ControlCenterGame.ControlCenterGame:PersistentLevel.ScreenUI2_C_1
+[2023.02.02-22.33.29:637][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.33.29:737][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.02.02-22.33.29:814][858]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenterGame
+[2023.02.02-22.33.29:814][858]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenterGame925E08EE482C3DDE471160B4B72D605F.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenterGame.umap'
+[2023.02.02-22.33.29:825][858]LogFileHelpers: No new changes to save!
+[2023.02.02-22.33.29:825][858]LogFileHelpers: Saving map 'ControlCenterGame' took 0.157
+[2023.02.02-22.33.29:831][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 2.56 sec)
+[2023.02.02-22.33.29:840][858]AssetCheck: New page: Asset Save: ControlCenterGame
+[2023.02.02-22.33.29:840][858]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenterGame.ControlCenterGame
+[2023.02.02-22.33.59:501][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.33.59:532][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.02-22.33.59:539][487]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.02-22.33.59:539][487]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2EE16F5A84CA3C9AEDD801DBF0C40578D.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.02-22.33.59:545][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 2.61 sec)
+[2023.02.02-22.33.59:555][487]AssetCheck: New page: Asset Save: Screen2
+[2023.02.02-22.33.59:555][487]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.02-22.34.03:853][734]LogEditorViewport: Clicking Background
+[2023.02.02-22.34.05:293][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.34.05:392][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.02.02-22.34.05:474][815]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenterGame
+[2023.02.02-22.34.05:475][815]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenterGameE70F1BC44E59765738B3619D32CA73A9.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenterGame.umap'
+[2023.02.02-22.34.05:485][815]LogFileHelpers: No new changes to save!
+[2023.02.02-22.34.05:485][815]LogFileHelpers: Saving map 'ControlCenterGame' took 0.161
+[2023.02.02-22.34.05:491][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 2.80 sec)
+[2023.02.02-22.34.05:500][815]AssetCheck: New page: Asset Save: ControlCenterGame
+[2023.02.02-22.34.05:500][815]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/ControlCenterGame.ControlCenterGame
+[2023.02.02-22.34.50:275][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-22.34.50:306][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen1" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset" SILENT=true
+[2023.02.02-22.34.50:311][423]LogSavePackage: Moving output files for package: /Game/Widgets/Screen1
+[2023.02.02-22.34.50:312][423]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen132CCDE9D4377B4136B05578AD4D5B430.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset'
+[2023.02.02-22.34.50:318][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.85 sec)
+[2023.02.02-22.34.50:327][423]AssetCheck: New page: Asset Save: Screen1
+[2023.02.02-22.34.50:327][423]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen1.Screen1
+[2023.02.02-22.35.42:355][513]LogSlate: Took 0.004548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.02.02-22.43.35:868][872]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.02.02-22.43.35:868][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.02-22.43.35:879][872]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.02.02-22.43.35:879][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.02-22.44.05:480][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.02.02-22.44.05:484][633]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ControlCenterGame' took 0.070
+[2023.02.02-22.44.05:485][633]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/Screen1] ([2] browsable assets)...
+[2023.02.02-22.44.05:486][633]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/Screen1.Screen1]
+[2023.02.02-22.44.05:486][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Screen1]
+[2023.02.02-22.44.05:491][633]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/Screen1_Auto5
+[2023.02.02-22.44.05:491][633]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen1_Auto54FDEB31C4DAFD076E796069DEF13E2F1.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Widgets/Screen1_Auto5.uasset'
+[2023.02.02-22.44.05:492][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/ScreenUI] ([2] browsable assets)...
+[2023.02.02-22.44.05:492][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/ScreenUI]
+[2023.02.02-22.44.05:494][633]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/ScreenUI_Auto5
+[2023.02.02-22.44.05:495][633]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ScreenUI_Auto5777F683749545655FC28148373CA6BB0.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Widgets/ScreenUI_Auto5.uasset'
+[2023.02.02-22.44.05:495][633]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/Screen2] ([2] browsable assets)...
+[2023.02.02-22.44.05:496][633]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/Screen2.Screen2]
+[2023.02.02-22.44.05:496][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Screen2]
+[2023.02.02-22.44.05:500][633]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/Screen2_Auto5
+[2023.02.02-22.44.05:500][633]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2_Auto5E208754A42DC33AE611E3C9BD92252C8.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Widgets/Screen2_Auto5.uasset'
+[2023.02.02-22.44.05:502][633]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.02.02-22.44.07:284][739]BlueprintLog: New page: Compile ScreenUI
+[2023.02.02-22.44.07:355][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.02.02-22.48.22:535][ 42]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.005 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.02-22.54.05:734][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.02.02-22.54.05:811][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/ControlCenterGame_Auto6
+[2023.02.02-22.54.05:811][620]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenterGame_Auto675C0D57E4AD459905D4574A983DB69F3.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Maps/ControlCenterGame_Auto6.umap'
+[2023.02.02-22.54.05:817][620]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ControlCenterGame' took 0.141
+[2023.02.02-22.54.05:817][620]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.141
+[2023.02.02-23.48.21:681][954]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.150 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-00.48.22:549][501]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.017 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-01.48.21:669][424]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.136 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-02.27.12:882][622]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-02.27.12:909][622]LogSavePackage: Moving output files for package: /Game/Widgets/ScreenUI2
+[2023.02.03-02.27.12:909][622]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ScreenUI2E8E5A9EC46D642816CB5B9A5F34E4BAC.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI2.uasset'
+[2023.02.03-02.27.12:915][622]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 2.88 sec)
+[2023.02.03-02.27.12:924][622]AssetCheck: New page: Asset Save: ScreenUI2
+[2023.02.03-02.27.12:924][622]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Widgets/ScreenUI2.ScreenUI2
+[2023.02.03-02.27.18:042][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.02.03-02.27.19:599][129]LogSlate: Window 'Save Content' being destroyed
+[2023.02.03-02.27.19:697][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-02.27.19:773][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.02.03-02.27.19:850][129]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenterGame
+[2023.02.03-02.27.19:851][129]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenterGameB55AE4ED412CC37B085444BD0872E620.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenterGame.umap'
+[2023.02.03-02.27.19:859][129]LogFileHelpers: No new changes to save!
+[2023.02.03-02.27.19:859][129]LogFileHelpers: Saving map 'ControlCenterGame' took 0.143
+[2023.02.03-02.27.19:860][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen1" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset" SILENT=true
+[2023.02.03-02.27.19:865][129]LogSavePackage: Moving output files for package: /Game/Widgets/Screen1
+[2023.02.03-02.27.19:865][129]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen1579219CD4E9F1AF88C18C387A1EEECF2.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset'
+[2023.02.03-02.27.19:865][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.03-02.27.19:870][129]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.03-02.27.19:870][129]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen217966A5B4491A698EA30F195B7B139AA.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.03-02.27.19:871][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/ScreenUI" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI.uasset" SILENT=true
+[2023.02.03-02.27.19:875][129]LogSavePackage: Moving output files for package: /Game/Widgets/ScreenUI
+[2023.02.03-02.27.19:875][129]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ScreenUI37A9ACA94CACEE6FFBC04290445B49EF.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/ScreenUI.uasset'
+[2023.02.03-02.27.19:881][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 3.06 sec)
+[2023.02.03-02.27.19:962][129]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ControlCenter.ControlCenter
+[2023.02.03-02.27.19:962][129]Cmd: MAP LOAD FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenter.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.03-02.27.19:962][129]LightingResults: New page: Lighting Build
+[2023.02.03-02.27.19:962][129]LoadErrors: New page: Loading map: ControlCenter.umap
+[2023.02.03-02.27.19:969][129]LogWorld: UWorld::CleanupWorld for ControlCenterGame, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-02.27.19:969][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-02.27.19:969][129]MapCheck: New page: Map Check
+[2023.02.03-02.27.19:969][129]LightingResults: New page: Lighting Build
+[2023.02.03-02.27.20:028][129]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.03-02.27.20:037][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: ================================================
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Total job queries 469, among them cache hits 122 (26.01%)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Tracking 347 distinct input hashes that result in 168 distinct outputs (48.41%)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: RAM used: 0.95 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Shaders Compiled: 5
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100.00%)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Job execution time: average 0.96 s, max 1.25 s
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Job life time (pending + execution): average 1.00 s, max 1.25
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.25 s
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Average processing rate: 4.00 jobs/sec
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Total thread time: 2.44 s
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Total thread preprocess time: 0.14 s
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Percentage time preprocessing: 5.66%
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Effective parallelization: 1.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 35.82% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.61% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.42% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.16% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2023.02.03-02.27.20:057][129]LogShaderCompilers: Display: ================================================
+[2023.02.03-02.27.20:058][129]LogWorld: UWorld::CleanupWorld for ControlCenter, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-02.27.20:059][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-02.27.20:117][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.02.03-02.27.20:172][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.02.03-02.27.20:208][129]LogAudio: Display: Audio Device (ID: 1) registered with world 'ControlCenter'.
+[2023.02.03-02.27.20:208][129]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-02.27.20:209][129]LogAIModule: Creating AISystem for world ControlCenter
+[2023.02.03-02.27.20:393][129]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.03-02.27.20:468][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.02.03-02.27.20:477][129]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.03-02.27.20:477][129]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.144ms to complete.
+[2023.02.03-02.27.20:477][129]LogFileHelpers: Loading map 'ControlCenter' took 0.514
+[2023.02.03-02.27.20:494][129]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.03-02.27.20:494][129]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Widgets/ScreenUI.ScreenUI
+[2023.02.03-02.27.20:494][129]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen1.Screen1
+[2023.02.03-02.27.20:494][129]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.03-02.27.20:531][130]LogAutomationController: Ignoring very large delta of 2.54 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.03-02.27.23:556][380]Cmd: DELETE
+[2023.02.03-02.27.23:556][380]Cmd: ACTOR DELETE
+[2023.02.03-02.27.23:563][380]LogEditorActor: Deleted Actor: ScreenUI_C
+[2023.02.03-02.27.23:618][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.02.03-02.27.23:622][380]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2023.02.03-02.28.57:075][501]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.02.03-02.28.57:084][501]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.03-02.28.57:085][501]LogPlayLevel: [PlayLevel] Compiling ScreenUI2 before play...
+[2023.02.03-02.28.57:130][501]LogPlayLevel: [PlayLevel] Compiling Screen1 before play...
+[2023.02.03-02.28.57:169][501]LogPlayLevel: [PlayLevel] Compiling Screen2 before play...
+[2023.02.03-02.28.57:255][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.02.03-02.28.57:258][501]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (3 blueprints)
+[2023.02.03-02.28.57:258][501]PIE: New page: PIE session: ControlCenter (Feb 2, 2023, 4:28:57 PM)
+[2023.02.03-02.28.57:296][501]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ControlCenter
+[2023.02.03-02.28.57:324][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028248s)
+[2023.02.03-02.28.57:324][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ControlCenter.ControlCenter to /Game/Maps/UEDPIE_0_ControlCenter.ControlCenter (0.028296s)
+[2023.02.03-02.28.57:324][501]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-02.28.57:325][501]LogAIModule: Creating AISystem for world ControlCenter
+[2023.02.03-02.28.57:325][501]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2023.02.03-02.28.57:387][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.02.03-02.28.57:389][501]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.03-02.28.57:389][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.03-02.28.57:389][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.03-02.28.57:390][501]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.02.03-02.28.57:390][501]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.02.03-02.28.57:390][501]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.03-02.28.57:392][501]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.03-02.28.57:445][501]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.02.03-02.28.57:445][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.03-02.28.57:445][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.03-02.28.57:445][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.03-02.28.57:446][501]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.02.03-02.28.57:446][501]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=13
+[2023.02.03-02.28.57:448][501]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.02.03-02.28.57:448][501]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.02.03-02.28.57:448][501]LogInit: FAudioDevice initialized.
+[2023.02.03-02.28.57:448][501]LogAudio: Display: Audio Device (ID: 13) registered with world 'ControlCenter'.
+[2023.02.03-02.28.57:463][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.03-02.28.57:595][501]LogLoad: Game class is 'VRGameMode_C'
+[2023.02.03-02.28.57:608][501]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ControlCenter.ControlCenter up for play (max tick rate 0) at 2023.02.02-21.28.57
+[2023.02.03-02.28.57:608][501]LogWorld: Bringing up level for play took: 0.013010
+[2023.02.03-02.28.57:613][501]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.02.03-02.28.57:618][501]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.02.03-02.28.57:618][501]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.02.03-02.28.57:620][501]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.02.03-02.28.57:622][501]Cmd: vr.PixelDensity 1.0
+[2023.02.03-02.28.57:622][501]vr.PixelDensity = "1"
+[2023.02.03-02.28.57:629][501]PIE: Server logged in
+[2023.02.03-02.28.57:631][501]PIE: Play in editor total start time 0.549 seconds.
+[2023.02.03-02.28.57:664][501]LogViewport: Scene viewport resized to 4128x2096, mode Windowed.
+[2023.02.03-02.28.57:824][501]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.02.03-02.28.57:836][501]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.02.03-02.29.15:072][908]LogNet: Browse: /Game/Maps/ControlCenterGame
+[2023.02.03-02.29.15:072][908]LogLoad: LoadMap: /Game/Maps/ControlCenterGame
+[2023.02.03-02.29.15:072][908]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ControlCenter
+[2023.02.03-02.29.15:073][908]LogWorld: UWorld::CleanupWorld for ControlCenter, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-02.29.15:075][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-02.29.15:135][908]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.03-02.29.15:139][908]LogSlate: Slate User Unregistered.  User Index 8
+[2023.02.03-02.29.15:139][908]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.02.03-02.29.15:142][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2023.02.03-02.29.15:202][908]LogAudio: Display: Audio Device (ID: 13) registered with world 'ControlCenterGame'.
+[2023.02.03-02.29.15:202][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-02.29.15:202][908]LogAIModule: Creating AISystem for world ControlCenterGame
+[2023.02.03-02.29.15:202][908]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2023.02.03-02.29.15:202][908]LogLoad: Game class is 'VRGameMode_C'
+[2023.02.03-02.29.15:240][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ControlCenterGame.ControlCenterGame up for play (max tick rate 0) at 2023.02.02-21.29.15
+[2023.02.03-02.29.15:240][908]LogWorld: Bringing up level for play took: 0.017471
+[2023.02.03-02.29.15:242][908]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.02.03-02.29.15:242][908]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.02.03-02.29.15:243][908]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.02.03-02.29.15:244][908]Cmd: vr.PixelDensity 1.0
+[2023.02.03-02.29.15:244][908]vr.PixelDensity = "1"
+[2023.02.03-02.29.15:244][908]LogLoad: Took 0.171912 seconds to LoadMap(/Game/Maps/ControlCenterGame)
+[2023.02.03-02.29.15:574][910]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.02.03-02.29.33:066][333]LogBlueprintUserMessages: [Screen1_C_0] Pressed Green Button
+[2023.02.03-02.29.34:138][365]LogBlueprintUserMessages: [Screen1_C_0] Pressed Red Button
+[2023.02.03-02.29.37:877][474]LogBlueprintUserMessages: [Screen1_C_0] Pressed Green Button
+[2023.02.03-02.29.38:353][489]LogBlueprintUserMessages: [Screen1_C_0] Pressed Green Button
+[2023.02.03-02.30.46:981][339]LogBlueprintUserMessages: [Screen1_C_0] Pressed Red Button
+[2023.02.03-02.30.47:291][349]LogBlueprintUserMessages: [Screen1_C_0] Pressed Red Button
+[2023.02.03-02.30.48:423][384]LogBlueprintUserMessages: [Screen1_C_0] Pressed Green Button
+[2023.02.03-02.30.49:879][430]LogBlueprintUserMessages: [Screen1_C_0] Pressed Red Button
+[2023.02.03-02.31.21:496][365]LogBlueprintUserMessages: [Screen1_C_0] Pressed Red Button
+[2023.02.03-02.31.22:231][388]LogBlueprintUserMessages: [Screen1_C_0] Pressed Red Button
+[2023.02.03-02.32.13:956][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.03-02.32.13:957][813]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ControlCenterGame
+[2023.02.03-02.32.13:994][813]LogSlate: Window 'VRControlCenter Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5) OpenXR Oculus (1.81.0)' being destroyed
+[2023.02.03-02.32.14:003][813]LogWorld: UWorld::CleanupWorld for ControlCenterGame, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-02.32.14:007][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-02.32.14:012][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.03-02.32.14:029][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-02.32.14:109][813]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.02.03-02.32.14:109][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.02.03-02.32.14:112][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.02.03-02.32.14:131][813]LogSlate: Slate User Unregistered.  User Index 8
+[2023.02.03-02.32.14:131][813]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.02.03-02.32.14:136][813]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.02.03-02.32.14:190][814]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.02.03-02.40.34:812][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.02.03-02.40.34:882][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/ControlCenter_Auto7
+[2023.02.03-02.40.34:882][183]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenter_Auto71E2AE29F4322C02AD276DC94ADB62A1C.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Maps/ControlCenter_Auto7.umap'
+[2023.02.03-02.40.34:890][183]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ControlCenter' took 0.140
+[2023.02.03-02.40.34:890][183]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.140
+[2023.02.03-02.48.22:668][820]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.034 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-03.48.21:794][151]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.160 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-04.48.22:772][434]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.038 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-05.41.40:997][ 24]LogViewport: Scene viewport resized to 1415x942, mode Windowed.
+[2023.02.03-05.48.22:626][228]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.138 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-06.48.25:175][ 29]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.042 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-08.43.48:895][993]LogAutomationController: Ignoring very large delta of 3602.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.03-08.48.25:346][823]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.163 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-10.43.50:912][792]LogAutomationController: Ignoring very large delta of 3602.49 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.03-10.48.27:274][620]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.059 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-12.43.52:759][590]LogAutomationController: Ignoring very large delta of 3602.39 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.03-12.48.27:416][413]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.150 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-13.55.34:426][391]LogAutomationController: Ignoring very large delta of 701.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.03-13.59.20:117][ 68]LogViewport: Scene viewport resized to 1415x894, mode Windowed.
+[2023.02.03-13.59.30:775][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.02.03-13.59.32:076][682]LogSlate: Window 'Save Content' being destroyed
+[2023.02.03-13.59.32:152][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-13.59.32:239][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.02.03-13.59.32:327][682]LogSavePackage: Moving output files for package: /Game/Maps/ControlCenter
+[2023.02.03-13.59.32:328][682]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/ControlCenter760FA4D04F1E9DBE96DD2A8D66902264.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenter.umap'
+[2023.02.03-13.59.32:337][682]LogFileHelpers: No new changes to save!
+[2023.02.03-13.59.32:337][682]LogFileHelpers: Saving map 'ControlCenter' took 0.155
+[2023.02.03-13.59.32:343][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 3.25 sec)
+[2023.02.03-13.59.32:410][682]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ControlCenterGame.ControlCenterGame
+[2023.02.03-13.59.32:410][682]Cmd: MAP LOAD FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Maps/ControlCenterGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.03-13.59.32:410][682]LightingResults: New page: Lighting Build
+[2023.02.03-13.59.32:410][682]LoadErrors: New page: Loading map: ControlCenterGame.umap
+[2023.02.03-13.59.32:463][682]LogWorld: UWorld::CleanupWorld for ControlCenter, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-13.59.32:463][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-13.59.32:464][682]MapCheck: New page: Map Check
+[2023.02.03-13.59.32:464][682]LightingResults: New page: Lighting Build
+[2023.02.03-13.59.32:520][682]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.03-13.59.32:528][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: ================================================
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Total job queries 486, among them cache hits 137 (28.19%)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Tracking 349 distinct input hashes that result in 170 distinct outputs (48.71%)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: RAM used: 0.96 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Shaders Compiled: 5
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100.00%)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Job execution time: average 0.96 s, max 1.25 s
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Job life time (pending + execution): average 1.00 s, max 1.25
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.25 s
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Average processing rate: 4.00 jobs/sec
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Total thread time: 2.44 s
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Total thread preprocess time: 0.14 s
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Percentage time preprocessing: 5.66%
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Effective parallelization: 1.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 35.82% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.61% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.42% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.16% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2023.02.03-13.59.32:534][682]LogShaderCompilers: Display: ================================================
+[2023.02.03-13.59.32:535][682]LogWorld: UWorld::CleanupWorld for ControlCenterGame, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-13.59.32:536][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-13.59.32:595][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.02.03-13.59.32:650][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.02.03-13.59.32:683][682]LogAudio: Display: Audio Device (ID: 1) registered with world 'ControlCenterGame'.
+[2023.02.03-13.59.32:683][682]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-13.59.32:684][682]LogAIModule: Creating AISystem for world ControlCenterGame
+[2023.02.03-13.59.32:860][682]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.03-13.59.32:936][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.02.03-13.59.32:943][682]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.03-13.59.32:943][682]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.178ms to complete.
+[2023.02.03-13.59.32:943][682]LogFileHelpers: Loading map 'ControlCenterGame' took 0.534
+[2023.02.03-13.59.32:965][682]AssetCheck: New page: Asset Save: ControlCenter
+[2023.02.03-13.59.33:005][683]LogAutomationController: Ignoring very large delta of 2.29 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.03-14.00.08:935][818]LogDerivedDataCache: C:/Users/Technology Showcase/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.074 and deleted 0 files with total size 0 MiB. Scanned 26713 files in 24777 folders with total size 2230 MiB.
+[2023.02.03-14.03.02:872][903]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Screen1.Screen1
+[2023.02.03-14.03.02:873][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-14.03.02:874][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-14.03.03:250][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-14.03.03:250][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-14.15.50:186][769]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.03-14.15.50:187][769]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.03-14.15.50:187][769]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.03-14.16.47:498][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-14.16.47:529][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen1" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset" SILENT=true
+[2023.02.03-14.16.47:535][178]LogSavePackage: Moving output files for package: /Game/Widgets/Screen1
+[2023.02.03-14.16.47:535][178]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen10251097A4BC2FAA73A5EE0871CF31A32.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset'
+[2023.02.03-14.16.47:541][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 3.30 sec)
+[2023.02.03-14.16.47:551][178]AssetCheck: New page: Asset Save: Screen1
+[2023.02.03-14.16.47:551][178]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen1.Screen1
+[2023.02.03-14.16.47:768][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-14.16.47:800][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen1" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset" SILENT=true
+[2023.02.03-14.16.47:805][188]LogSavePackage: Moving output files for package: /Game/Widgets/Screen1
+[2023.02.03-14.16.47:806][188]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen1410FA9F0405B4732128868907F31CB3A.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset'
+[2023.02.03-14.16.47:811][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 3.34 sec)
+[2023.02.03-14.16.47:818][188]AssetCheck: New page: Asset Save: Screen1
+[2023.02.03-14.16.47:818][188]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen1.Screen1
+[2023.02.03-14.16.49:361][281]BlueprintLog: New page: Compile Screen1
+[2023.02.03-14.16.49:469][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.02.03-14.18.59:538][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-14.18.59:562][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen1" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset" SILENT=true
+[2023.02.03-14.18.59:568][ 23]LogSavePackage: Moving output files for package: /Game/Widgets/Screen1
+[2023.02.03-14.18.59:569][ 23]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen197E88F404813D7CF2BBA0DA13210176B.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen1.uasset'
+[2023.02.03-14.18.59:575][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 3.38 sec)
+[2023.02.03-14.18.59:583][ 23]AssetCheck: New page: Asset Save: Screen1
+[2023.02.03-14.18.59:583][ 23]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen1.Screen1
+[2023.02.03-14.19.04:623][326]BlueprintLog: New page: Compile Screen1
+[2023.02.03-14.19.04:734][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.02.03-14.19.18:710][161]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2023.02.03-14.19.38:171][324]BlueprintLog: New page: Compile Screen2
+[2023.02.03-14.19.38:271][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.02.03-14.19.39:730][408]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-14.19.39:730][408]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-14.21.24:882][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.02.03-14.21.24:884][642]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ControlCenterGame' took 0.062
+[2023.02.03-14.21.24:884][642]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/Screen2] ([2] browsable assets)...
+[2023.02.03-14.21.24:886][642]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/Screen2.Screen2]
+[2023.02.03-14.21.24:886][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Screen2]
+[2023.02.03-14.21.24:891][642]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/Screen2_Auto8
+[2023.02.03-14.21.24:891][642]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2_Auto8C0C55A264A7A7B4B7C7A9CBA6EEB5DD2.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Widgets/Screen2_Auto8.uasset'
+[2023.02.03-14.21.24:892][642]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.02.03-14.24.08:622][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-14.24.08:652][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.03-14.24.08:658][460]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.03-14.24.08:659][460]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2A0D86A914435F2177E0F658CE48A913A.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.03-14.24.08:665][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 3.42 sec)
+[2023.02.03-14.24.08:679][460]AssetCheck: New page: Asset Save: Screen2
+[2023.02.03-14.24.08:679][460]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.03-14.25.34:520][546]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-14.25.34:550][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.03-14.25.34:556][546]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.03-14.25.34:557][546]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen250034D5F4275ED3E8BF420ACD8C8BFFB.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.03-14.25.34:564][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 3.46 sec)
+[2023.02.03-14.25.34:572][546]AssetCheck: New page: Asset Save: Screen2
+[2023.02.03-14.25.34:572][546]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.03-14.25.43:606][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-14.25.43:639][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen2" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset" SILENT=true
+[2023.02.03-14.25.43:645][ 81]LogSavePackage: Moving output files for package: /Game/Widgets/Screen2
+[2023.02.03-14.25.43:646][ 81]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen2380EB0F147753635774C98A9FA9B7703.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen2.uasset'
+[2023.02.03-14.25.43:653][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 3.51 sec)
+[2023.02.03-14.25.43:660][ 81]AssetCheck: New page: Asset Save: Screen2
+[2023.02.03-14.25.43:661][ 81]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen2.Screen2
+[2023.02.03-14.25.44:485][131]BlueprintLog: New page: Compile Screen2
+[2023.02.03-14.25.44:592][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.02.03-14.26.12:843][819]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.02.03-14.26.12:850][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.03-14.26.12:850][819]PIE: New page: PIE session: ControlCenterGame (Feb 3, 2023, 4:26:12 AM)
+[2023.02.03-14.26.12:850][819]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ControlCenterGame
+[2023.02.03-14.26.12:873][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022377s)
+[2023.02.03-14.26.12:873][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ControlCenterGame.ControlCenterGame to /Game/Maps/UEDPIE_0_ControlCenterGame.ControlCenterGame (0.022415s)
+[2023.02.03-14.26.12:873][819]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-14.26.12:874][819]LogAIModule: Creating AISystem for world ControlCenterGame
+[2023.02.03-14.26.12:874][819]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2023.02.03-14.26.12:934][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.02.03-14.26.12:938][819]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.03-14.26.12:938][819]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.03-14.26.12:938][819]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.03-14.26.12:938][819]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.02.03-14.26.12:938][819]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.02.03-14.26.12:938][819]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.03-14.26.12:940][819]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.03-14.26.12:985][819]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.02.03-14.26.12:986][819]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.03-14.26.12:986][819]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.03-14.26.12:986][819]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.03-14.26.12:986][819]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.02.03-14.26.12:986][819]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=14
+[2023.02.03-14.26.12:988][819]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.02.03-14.26.12:988][819]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.02.03-14.26.12:988][819]LogInit: FAudioDevice initialized.
+[2023.02.03-14.26.12:988][819]LogAudio: Display: Audio Device (ID: 14) registered with world 'ControlCenterGame'.
+[2023.02.03-14.26.13:000][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.03-14.26.13:136][819]LogLoad: Game class is 'VRGameMode_C'
+[2023.02.03-14.26.13:146][819]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ControlCenterGame.ControlCenterGame up for play (max tick rate 0) at 2023.02.03-09.26.13
+[2023.02.03-14.26.13:147][819]LogWorld: Bringing up level for play took: 0.010801
+[2023.02.03-14.26.13:150][819]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.02.03-14.26.13:152][819]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.02.03-14.26.13:153][819]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.02.03-14.26.13:154][819]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.02.03-14.26.13:156][819]Cmd: vr.PixelDensity 1.0
+[2023.02.03-14.26.13:156][819]vr.PixelDensity = "1"
+[2023.02.03-14.26.13:159][819]PIE: Server logged in
+[2023.02.03-14.26.13:160][819]PIE: Play in editor total start time 0.311 seconds.
+[2023.02.03-14.26.13:166][819]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Widgets/Screen2.Screen2_C:ExecuteUbergraph_Screen2'!
+[2023.02.03-14.26.13:166][819]LogScript: Warning: Last function called:
+	/Game/Widgets/Screen2.Screen2_C.ExecuteUbergraph_Screen2
+
+[2023.02.03-14.26.13:166][819]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Screen2_C /Engine/Transient.UnrealEdEngine_0:GameInstance_12.Screen2_C_0
+	Function /Game/Widgets/Screen2.Screen2_C:ExecuteUbergraph_Screen2:0097
+[2023.02.03-14.26.13:166][819]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set signIn Graph:  EventGraph Function:  Execute Ubergraph Screen 2 Blueprint:  Screen2
+[2023.02.03-14.26.13:182][819]LogViewport: Scene viewport resized to 4128x2096, mode Windowed.
+[2023.02.03-14.26.13:345][819]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.02.03-14.26.13:355][819]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.02.03-14.26.13:453][821]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.02.03-14.26.51:216][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.03-14.26.51:216][979]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ControlCenterGame
+[2023.02.03-14.26.51:272][979]LogSlate: Window 'VRControlCenter Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5) OpenXR Oculus (1.81.0)' being destroyed
+[2023.02.03-14.26.51:280][979]LogWorld: UWorld::CleanupWorld for ControlCenterGame, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-14.26.51:281][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-14.26.51:308][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.03-14.26.51:316][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-14.26.51:385][979]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.03-14.26.51:385][979]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.02.03-14.26.51:385][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.02.03-14.26.51:388][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.02.03-14.26.51:401][979]LogSlate: Slate User Unregistered.  User Index 8
+[2023.02.03-14.26.51:401][979]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.02.03-14.26.51:404][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.02.03-14.26.51:534][980]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.02.03-14.27.05:665][782]LogSlate: Window 'Message Log' being destroyed
+[2023.02.03-14.27.05:669][782]LogSlate: Window 'Message Log' being destroyed
