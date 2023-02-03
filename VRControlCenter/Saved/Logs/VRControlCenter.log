@@ -2502,3 +2502,78 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.03-21.13.00:721][514]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
 [2023.02.03-21.13.00:724][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
 [2023.02.03-21.13.00:803][515]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.02.03-21.15.17:744][621]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-21.15.17:744][621]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-21.15.55:514][686]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.03-21.16.39:510][320]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.03-21.16.41:783][452]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineFonts: 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineFonts' is outside repository at 'C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter'
+[2023.02.03-21.17.02:333][610]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineFonts: 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineFonts' is outside repository at 'C:/Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter'
+[2023.02.03-21.17.20:937][688]SourceControl: Error: fatal: Invalid path 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/UMG': No such file or directory
+[2023.02.03-21.17.36:964][489]SourceControl: Error: fatal: Invalid path 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/UMG': No such file or directory
+[2023.02.03-21.17.46:675][925]SourceControl: Error: fatal: Invalid path 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/UMG': No such file or directory
+[2023.02.03-21.17.56:085][336]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.17.56:112][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.17.56:140][336]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.17.56:141][336]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen4B6BDA8EA483FF186B1D64AAA5ED5741A.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.17.56:148][336]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.80 sec)
+[2023.02.03-21.17.56:160][336]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.17.56:160][336]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
+[2023.02.03-21.17.57:611][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.17.57:646][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.17.57:675][419]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.17.57:676][419]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen48F80B08648938E46F6CDFEA0EB8D2FD4.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.17.57:682][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.87 sec)
+[2023.02.03-21.17.57:693][419]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.17.57:693][419]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
+[2023.02.03-21.18.09:236][111]BlueprintLog: New page: Compile Screen4
+[2023.02.03-21.18.09:371][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.02.03-21.18.25:928][874]SourceControl: Error: fatal: Invalid path 'C:/Program Files/Epic Games/UE_5.1/Engine/Content/UMG': No such file or directory
+[2023.02.03-21.18.50:426][229]BlueprintLog: New page: Compile Screen4
+[2023.02.03-21.18.50:547][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.02.03-21.19.04:983][  1]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.19.05:013][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.19.05:044][  1]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.19.05:044][  1]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen49DCFF9F34F99B26105111994BA1751A3.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.19.05:052][  1]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 1.94 sec)
+[2023.02.03-21.19.05:062][  1]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.19.05:062][  1]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
+[2023.02.03-21.19.06:172][ 66]BlueprintLog: New page: Compile Screen4
+[2023.02.03-21.19.06:299][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.02.03-21.19.19:142][797]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.19.19:169][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.19.19:198][797]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.19.19:198][797]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen40844B98143BB39651AF2F1AFC015E593.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.19.19:205][797]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.00 sec)
+[2023.02.03-21.19.19:217][797]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.19.19:217][797]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
+[2023.02.03-21.22.33:286][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.02.03-21.22.33:294][858]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ControlCenterGame' took 0.085
+[2023.02.03-21.22.33:295][858]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/Screen4] ([2] browsable assets)...
+[2023.02.03-21.22.33:298][858]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/Screen4.Screen4]
+[2023.02.03-21.22.33:298][858]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Screen4]
+[2023.02.03-21.22.33:327][858]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/Screen4_Auto2
+[2023.02.03-21.22.33:327][858]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen4_Auto21E41B5C14105AE816E66CD81283C073E.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Autosaves/Game/Widgets/Screen4_Auto2.uasset'
+[2023.02.03-21.22.33:328][858]LogFileHelpers: Auto-saving content packages took 0.034
+[2023.02.03-21.24.18:647][117]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-21.24.18:647][117]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.03-21.25.26:287][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.25.26:321][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.25.26:351][ 77]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.25.26:351][ 77]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen4D990714945B6C30E5D010A82C23A80E3.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.25.26:361][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.07 sec)
+[2023.02.03-21.25.26:372][ 77]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.25.26:372][ 77]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
+[2023.02.03-21.26.30:627][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.26.30:657][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.26.30:687][858]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.26.30:687][858]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen4FDE4AAA14CF1F72D1B6FEFB65A45CA0D.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.26.30:695][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 2.14 sec)
+[2023.02.03-21.26.30:706][858]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.26.30:707][858]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
+[2023.02.03-21.26.31:616][909]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-21.26.31:652][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Screen4" FILE="../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset" SILENT=true
+[2023.02.03-21.26.31:682][909]LogSavePackage: Moving output files for package: /Game/Widgets/Screen4
+[2023.02.03-21.26.31:682][909]LogSavePackage: Moving '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Saved/Screen4D3E049E2489B4CCE052E3B8A46561915.tmp' to '../../../../../../Users/Technology Showcase/Desktop/VRControlCenter/VRControlCenter/VRControlCenter/Content/Widgets/Screen4.uasset'
+[2023.02.03-21.26.31:690][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.21 sec)
+[2023.02.03-21.26.31:705][909]AssetCheck: New page: Asset Save: Screen4
+[2023.02.03-21.26.31:705][909]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Screen4.Screen4
