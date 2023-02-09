@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>4EBECDF749442504806E808F5EAF3E99</ExecutionGuid>
+		<CrashGUID>UECC-Windows-149283CF47790DA20D9EC0A39062C4A4_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<ErrorMessage>Assertion failed: false [File:D:\build\++UE5\Sync\Engine\Plugins\Runtime\Oculus\OculusAudio\Source\OculusAudio\Private\OculusAudioDllManager.cpp] [Line: 45]</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>20304</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-VRControlCenter</GameName>
+		<ExecutableName>VRControlCenter</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.0-23058290+++UE5+Release-5.1</EngineVersion>
+		<CommandLine />
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-23058290</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-23058290-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Users/SOCOTechInnovation/Desktop/VRControlCenter/VRControlCenter/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_5.1/</RootDir>
+		<MachineId>49595F814404909E243F71B526FEF581</MachineId>
+		<LoginId>49595f814404909e243f71b526fef581</LoginId>
+		<EpicAccountId>3bfdbbcc99424e65bf4fb59dcdb9bf38</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 2070</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (22H2) [10.0.22621.1105]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>16930328576</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>24178085888</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>7238766592</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>9844092928</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>144891904</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>144891904</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>84471808</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>84471808</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>6</NumMinidumpFramesToIgnore>
+		<CallStack>VRControlCenter!FOculusAudioPlugin::StartupModule()
+VRControlCenter!FModuleManager::LoadModuleWithFailureReason()
+VRControlCenter!FModuleDescriptor::LoadModulesForPhase()
+VRControlCenter!FPluginManager::TryLoadModulesForPlugin()
+VRControlCenter!FPluginManager::LoadModulesForEnabledPlugins()
+VRControlCenter!FEngineLoop::AppInit()
+VRControlCenter!FEngineLoop::PreInitPreStartupScreen()
+VRControlCenter!GuardedMain()
+VRControlCenter!GuardedMainWrapper()
+VRControlCenter!LaunchWindowsStartup()
+VRControlCenter!WinMain()
+VRControlCenter!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+kernel32
+ntdll</CallStack>
+		<PCallStack>VRControlCenter 0x00007ff7db0b0000 + 12174f2 VRControlCenter 0x00007ff7db0b0000 + 354233e VRControlCenter 0x00007ff7db0b0000 + 38adc55 VRControlCenter 0x00007ff7db0b0000 + 38c0ad2 VRControlCenter 0x00007ff7db0b0000 + 38ad8e4 VRControlCenter 0x00007ff7db0b0000 + c3134d VRControlCenter 0x00007ff7db0b0000 + c4873e VRControlCenter 0x00007ff7db0b0000 + c3c87f VRControlCenter 0x00007ff7db0b0000 + c3cbfa VRControlCenter 0x00007ff7db0b0000 + c3fb36 VRControlCenter 0x00007ff7db0b0000 + c51584 VRControlCenter 0x00007ff7db0b0000 + a086cea KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</PCallStack>
+		<PCallStackHash>52AA43B9909C554B754F1BCF6DCE7B425D2FE01B</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 3826ec4 VRControlCenter 0x00007ff7db0b0000 + a14085e VCRUNTIME140 0x00007ffa69800000 + efc0 ntdll 0x00007ffa8f5b0000 + a3eaf ntdll 0x00007ffa8f5b0000 + 1eae6 ntdll 0x00007ffa8f5b0000 + 54b35 KERNELBASE 0x00007ffa8cd20000 + 906bc VRControlCenter 0x00007ff7db0b0000 + 382ab43 VRControlCenter 0x00007ff7db0b0000 + 34fc6dd VRControlCenter 0x00007ff7db0b0000 + 34443cf VRControlCenter 0x00007ff7db0b0000 + 34455e9 VRControlCenter 0x00007ff7db0b0000 + a45d4fe VRControlCenter 0x00007ff7db0b0000 + 12174f2 VRControlCenter 0x00007ff7db0b0000 + 354233e VRControlCenter 0x00007ff7db0b0000 + 38adc55 VRControlCenter 0x00007ff7db0b0000 + 38c0ad2 VRControlCenter 0x00007ff7db0b0000 + 38ad8e4 VRControlCenter 0x00007ff7db0b0000 + c3134d VRControlCenter 0x00007ff7db0b0000 + c4873e VRControlCenter 0x00007ff7db0b0000 + c3c87f VRControlCenter 0x00007ff7db0b0000 + c3cbfa VRControlCenter 0x00007ff7db0b0000 + c3fb36 VRControlCenter 0x00007ff7db0b0000 + c51584 VRControlCenter 0x00007ff7db0b0000 + a086cea KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>3240</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 350f904 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19156</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23220</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18916</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23532</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20800</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9032</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17312</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18240</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21904</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20712</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31d4ee5 VRControlCenter 0x00007ff7db0b0000 + 31d6d55 VRControlCenter 0x00007ff7db0b0000 + 31a6cf0 VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1820</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 3319915 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22392</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 3319915 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21324</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21092</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23276</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11268</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22612</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13576</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14632</ThreadID>
+				<ThreadName>Reserve Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12032</ThreadID>
+				<ThreadName>Reserve Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19276</ThreadID>
+				<ThreadName>Reserve Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20772</ThreadID>
+				<ThreadName>Reserve Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 31a120b VRControlCenter 0x00007ff7db0b0000 + 3319d09 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23300</ThreadID>
+				<ThreadName>Reserve Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9f484 ntdll 0x00007ffa8f5b0000 + 55873 KERNELBASE 0x00007ffa8cd20000 + 4a11d VRControlCenter 0x00007ff7db0b0000 + 3506be5 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20960</ThreadID>
+				<ThreadName>FAsyncWriter_VRControlCenter</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + 76ca6bc VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23184</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9f484 ntdll 0x00007ffa8f5b0000 + 55873 KERNELBASE 0x00007ffa8cd20000 + 4a11d VRControlCenter 0x00007ff7db0b0000 + 3d3ab36 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20528</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa8f5b0000 + 9ee84 KERNELBASE 0x00007ffa8cd20000 + 39c4e VRControlCenter 0x00007ff7db0b0000 + 386f160 VRControlCenter 0x00007ff7db0b0000 + f41216 VRControlCenter 0x00007ff7db0b0000 + 38534f2 VRControlCenter 0x00007ff7db0b0000 + 384b280 KERNEL32 0x00007ffa8de10000 + 126bd ntdll 0x00007ffa8f5b0000 + 5dfb8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3096</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638114783995810000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 11 (22H2) [10.0.22621.1105]  64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Users\SOCOTechInnovation\Desktop\VRControlCenter\VRControlCenter\Binaries\Win64\tbb.dll
+C:\Users\SOCOTechInnovation\Desktop\VRControlCenter\VRControlCenter\Binaries\Win64\VRControlCenter.exe
+C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\ThirdParty\Windows\WinPixEventRuntime\x64\WinPixEventRuntime.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData />
+	<GameData />
+</FGenericCrashContext>
